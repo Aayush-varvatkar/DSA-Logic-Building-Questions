@@ -13,9 +13,27 @@ public class Question10 {
         System.out.println("Enter password");
         String password = sc.next();
 
-        if (password.length()==8 && password.) {
-            
+        boolean hasdigit = false;
+
+        for (int i = 0; i < password.length(); i++) {
+
+            char ch = password.charAt(i);
+
+            if (Character.isDigit(ch)) {
+                hasdigit = true;        
+            }
         }
+
+        if (password.length()>=8 && hasdigit == true) {
+            System.out.println("Password satisfies the conditions");
+        }
+        else{
+            System.out.println("Does not match the value");
+        }
+
+
+
+        sc.close();
     }
     
 }
