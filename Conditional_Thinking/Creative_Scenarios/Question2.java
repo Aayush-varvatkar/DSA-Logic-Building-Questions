@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 // 2. Take three numbers and check if they can form a Pythagorean triplet.
 
+// to be an pythagorean triplet:      3² + 4² = 5² → 9 + 16 = 25
+
 
 public class Question2 {
 
