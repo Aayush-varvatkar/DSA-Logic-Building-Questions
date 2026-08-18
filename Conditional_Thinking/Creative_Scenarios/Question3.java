@@ -1,6 +1,9 @@
 package Conditional_Thinking.Creative_Scenarios;
-
 import java.util.Scanner;
+
+
+// 3. Take day and month and check if it forms a valid calendar date (ignoring leap years)
+
 
 public class Question3 {
 
